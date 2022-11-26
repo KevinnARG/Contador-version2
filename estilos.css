@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(255, 243, 243, 0.797);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20vh;
+    
+}
+
+.numero-container {
+    background-color: rgb(19, 113, 227);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border-radius: 25px;
+}
+
+#numero {
+    color: rgba(255, 243, 243, 0.797);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    display:flex;
+    margin: auto;
+    opacity: 1;
+    transition: .3s ease-in-out all;
+}
+
+#numero.sumado {   
+    transition: .3s ease-in-out all;
+    opacity: 0.5;
+}
+
+#mas {
+    color: rgb(19, 113, 227);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: none;
+    background-color: transparent;
+}
+
+#reset {
+    color: rgb(19, 113, 227);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-color: rgb(19, 113, 227);
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgba(226, 223, 223, 0.797)
+}
+
+#menos {
+    color: rgb(19, 113, 227);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: none;
+    background-color: transparent;
+}
+
+#mas:hover {
+    color: rgb(255, 0, 0)
+}
+
+#menos:hover {
+    color: rgb(255, 0, 0)
+}
